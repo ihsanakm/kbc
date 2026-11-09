@@ -62,7 +62,7 @@ export default function MenuSection() {
             with. Prices at the counter; ask the crew about family packs.
           </p>
           <a
-            href="https://kbcoriginal.lk/wp-content/uploads/2026/07/KBC-foam-board-menu-scaled.png"
+            href="/kbc-menu.pdf"
             target="_blank"
             rel="noopener"
             className="kbc-btn-ghost"
@@ -201,15 +201,33 @@ export default function MenuSection() {
                   borderRadius: 32,
                 }}
               >
-                <img
-                  src={i.img}
-                  alt={i.name}
-                  style={{
-                    width: "100%",
-                    aspectRatio: "1/1",
-                    objectFit: "contain",
-                  }}
-                />
+                {i.img ? (
+                  <img
+                    src={i.img}
+                    alt={i.name}
+                    style={{
+                      width: "100%",
+                      aspectRatio: "1/1",
+                      objectFit: "contain",
+                    }}
+                  />
+                ) : (
+                  <div
+                    style={{
+                      width: "100%",
+                      aspectRatio: "1/1",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <img
+                      src="/images/logo.webp"
+                      alt=""
+                      style={{ width: "55%", opacity: 0.18 }}
+                    />
+                  </div>
+                )}
               </div>
               <div style={{ padding: "18px 20px 22px" }}>
                 <h3

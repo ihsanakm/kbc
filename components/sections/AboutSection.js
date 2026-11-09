@@ -65,7 +65,7 @@ export default function AboutSection({ goMenu, goLocations }) {
             </p>
           </div>
           <img
-            src="https://kbcoriginal.lk/wp-content/uploads/2026/07/people.png"
+            src="/images/people.webp"
             alt="People eating at KBC"
             style={{ width: "100%", borderRadius: 36 }}
           />

@@ -48,7 +48,7 @@ export default function Header({ page, onNavigate, mobile }) {
           }}
         >
           <img
-            src="https://kbcoriginal.lk/wp-content/uploads/2026/07/logo.png"
+            src="/images/logo.webp"
             alt="KBC Original"
             style={{ height: 40, width: "auto" }}
           />

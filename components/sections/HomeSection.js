@@ -1103,8 +1103,8 @@ export default function HomeSection({ goMenu, goLocations, goAbout, goCareers, n
             </button>
           </div>
           <img
-            src="https://kbcoriginal.lk/wp-content/uploads/2026/07/bbq-shred2.png"
-            alt="Shredded charcoal BBQ chicken"
+            src="/images/5.-BBQ-full-chicken.webp"
+            alt="Whole charcoal-grilled BBQ chicken"
             style={{
               width: "100%",
               borderRadius: 40,
